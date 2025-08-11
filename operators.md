@@ -1,23 +1,22 @@
-# <span style="color: #00D100">JavaScript Operators</span>
+# <span style="color: #00D100">Python Operators</span>
 
-### - Javascript operators are used to perform different types of mathematical and logical computations.
-
-
+### - Python operators are used to perform different types of mathematical and logical computations.
 
 ## <span style="color:#00D100">Example 1</span>
-```javascript
-let a = 10;
-let b = 3;
 
-console.log(a + b);
+```python
+a = 10
+b = 3
 
-console.log(a - b); 
+print(a + b)   # Addition
 
-console.log(a * b); 
+print(a - b)   # Subtraction
 
-console.log(a / b); 
+print(a * b)   # Multiplication
 
-console.log(a % b); 
+print(a / b)   # Division (float)
 
-console.log(a ** b);
+print(a % b)   # Modulus (remainder)
+
+print(a ** b)  # Exponentiation
 ```

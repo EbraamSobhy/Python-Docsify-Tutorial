@@ -1,19 +1,15 @@
-# <span style="color: #00D100">JavaScript Syntax</span>
+# <span style="color: #00D100">Python Syntax</span>
 
-## JavaScript syntax is the set of rules.
+## Python syntax is the set of rules.
 
 ## <span style="color: #00D100">Example 1</span>
 
-```javascript
-console.log(person.firstName); // Output: John
+```python
+print("Hello from Python")
 
-console.log(person["age"]); // Output: 45
+print(20)
 
-console.log(person.fullName()); // Output: John Doe
-```
+print(True)
 
-## <span style="color: #00D100">Example 2</span>
-
-```javascript
-// console.log in inspect
+print(2.5)
 ```

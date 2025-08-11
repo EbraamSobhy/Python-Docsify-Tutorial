@@ -1,47 +1,25 @@
-# <span style="color: #00D100">JavaScript Variables</span>
+# <span style="color: #00D100">Python Variables</span>
 
-### - A container for storing a data value. You can think of it as a labeled box where you put something inside.
+### - A variable in Python is a container for storing data values. You can think of it as a labeled box where you put something inside.
 
-## <span style="color: #00D100">Example</span>
-
-```javascript
-const x = 5;
-let y = 6;
-let z = x + y;
-```
 ## <span style="color: #00D100">Variables</span>
 
-```javascript
-var x = 5;
-var y = 6;
-var z = x + y;
+```python
+x = 5
+y = 6
+z = x + y
 ```
-## <span style="color: #00D100">Constant</span>
-
-```javascript
-const x = 5;
-const y = 6;
-const z = x + y;
-```
-
-## <span style="color: #00D100">Let</span>
-
-```javascript
-let x = 5;
-let y = 6;
-let z = x + y;
-```
-
 ## <span style="color: #00D100">Example</span>
 
-```javascript
-let name = "Alice"; // A string
+```python
+name = "Alice"               # A string
 
-const age = 30; // A number
+age = 30                     # A number (integer)
 
-let isStudent = true; // A boolean
+is_student = True            # A boolean
 
-let car = { make: "Honda", model: "Civic" }; // An object
+car = { "make": "Honda", "model": "Civic" }  # A dictionary (similar to JS object)
 
-let colors = ["red", "green", "blue"]; // An array
+colors = ["red", "green", "blue"]  # A list (similar to JS array)
+
 ```

@@ -1,18 +1,18 @@
-# <span style="color: #00D100">JavaScript Functions</span>
+# <span style="color: #00D100">Python Functions</span>
 
-### - A JavaScript function is a block of code designed to perform a particular task.
+### - A Python function is a block of code designed to perform a particular task.
 
 ## <span style="color:#00D100">Example</span>
-```javascript
-function myFunction(p1, p2) {
-  return p1 * p2;
-}
+
+```python
+def my_function(p1, p2):
+    return p1 * p2
 ```
 
-```javascript
-function greet(name) {
-  return "Hello, " + name + "!";
-}
+```python
+def greet(name):
+    return "Hello, " + name + "!"
 
-console.log(greet("Bob")); // Output: Hello, Bob!
+print(greet("Bob"))  # Output: Hello, Bob!
+
 ```

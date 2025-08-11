@@ -1,20 +1,23 @@
-# <span style="color: #00D100">JavaScript Objects</span>
+# <span style="color: #00D100">Python Dictionaries</span>
 
-### - Objects are variables too. But objects can contain many values.
+### - In Python, dictionaries are variables that can store multiple key-value pairs.
 
 ## <span style="color:#00D100">Example</span>
 
-```javascript
-const person = {
-  
-  firstName: "John",
+```python
+person = {
+    "first_name": "John",
 
-  lastName: "Doe",
+    "last_name": "Doe",
+    
+    "age": 45
+}
 
-  age: 45,
+# Function to get full name
 
-  fullName: function() {
-    return this.firstName + " " + this.lastName;
-  }
-};
+def full_name(p):
+
+    return p["first_name"] + " " + p["last_name"]
+
+print(full_name(person))  # Output: John Doe
 ```

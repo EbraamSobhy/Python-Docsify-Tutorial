@@ -1,74 +1,60 @@
-# <span style="color: #00D100">JavaScript Data Types</span>
+# <span style="color: #00D100">Python Data Types</span>
 
 ### - Data types define the kind of data a variable can store.
 
-
+---
 
 ## <span style="color:#00D100">String</span>
-```javascript
-let greeting = "Hello, world!";
+```python
+greeting = "Hello, world!"
 
-let name = 'John Doe';
+name = 'John Doe'
 
-console.log(typeof greeting);
+print(type(greeting))  # <class 'str'>
 ```
 
 ## <span style="color:#00D100">Number</span>
-```javascript
-let age = 30; // Integer
+```python
+age = 30           # Integer
+price = 19.99      # Floating-point number
+sum_value = age + price  # 49.99
 
-let price = 19.99; // Floating-point number
-
-let sum = age + price; // 49.99
-
-console.log(typeof age); // "number"
+print(type(age))   # <class 'int'>
+print(type(price)) # <class 'float'>
 ```
 
 ## <span style="color:#00D100">Boolean</span>
-```javascript
-let isStudent = true;
+```python
+is_student = True
+has_license = False
 
-let hasLicense = false;
-
-console.log(typeof isStudent); // "boolean"
+print(type(is_student))  # <class 'bool'>
 ```
 
-## <span style="color:#00D100">Undefined</span>
-```javascript
-let firstName;
+## <span style="color:#00D100">None</span>
+```python
+first_name = None
 
-console.log(firstName); // undefined
-
-console.log(typeof firstName); // "undefined"
+print(first_name)        # None
+print(type(first_name))  # <class 'NoneType'>
 ```
 
-## <span style="color:#00D100">Null</span>
-```javascript
-let car = null;
+## <span style="color:#00D100">Dictionary (Object)</span>
+```python
+person = {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "age": 28
+}
 
-console.log(car); // null
-
-console.log(typeof car); // "object" - This is a historical quirk in JavaScript
+print(type(person))       # <class 'dict'>
+print(person["first_name"])  # "Jane"
 ```
 
-## <span style="color:#00D100">Object</span>
-```javascript
-const person = {
-  firstName: "Jane",
-  lastName: "Doe",
-  age: 28,
-};
+## <span style="color:#00D100">List (Array)</span>
+```python
+colors = ["red", "green", "blue"]
 
-console.log(typeof person); // "object"
-
-console.log(person.firstName); // "Jane"
-```
-
-## <span style="color:#00D100">Array</span>
-```javascript
-const colors = ["red", "green", "blue"];
-
-console.log(colors[0]); // "red"
-
-console.log(typeof colors); // "object" - arrays are technically objects
+print(colors[0])          # "red"
+print(type(colors))       # <class 'list'>
 ```
