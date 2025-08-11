@@ -16,16 +16,20 @@ print(type(greeting))  # <class 'str'>
 ## <span style="color:#00D100">Number</span>
 ```python
 age = 30           # Integer
+
 price = 19.99      # Floating-point number
+
 sum_value = age + price  # 49.99
 
 print(type(age))   # <class 'int'>
+
 print(type(price)) # <class 'float'>
 ```
 
 ## <span style="color:#00D100">Boolean</span>
 ```python
 is_student = True
+
 has_license = False
 
 print(type(is_student))  # <class 'bool'>
@@ -36,6 +40,7 @@ print(type(is_student))  # <class 'bool'>
 first_name = None
 
 print(first_name)        # None
+
 print(type(first_name))  # <class 'NoneType'>
 ```
 
@@ -43,11 +48,14 @@ print(type(first_name))  # <class 'NoneType'>
 ```python
 person = {
     "first_name": "Jane",
+
     "last_name": "Doe",
+
     "age": 28
 }
 
 print(type(person))       # <class 'dict'>
+
 print(person["first_name"])  # "Jane"
 ```
 
@@ -56,5 +64,6 @@ print(person["first_name"])  # "Jane"
 colors = ["red", "green", "blue"]
 
 print(colors[0])          # "red"
+
 print(type(colors))       # <class 'list'>
 ```

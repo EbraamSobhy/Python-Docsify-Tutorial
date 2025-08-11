@@ -6,11 +6,13 @@
 
 ```python
 def my_function(p1, p2):
+
     return p1 * p2
 ```
 
 ```python
 def greet(name):
+  
     return "Hello, " + name + "!"
 
 print(greet("Bob"))  # Output: Hello, Bob!
